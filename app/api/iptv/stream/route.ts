@@ -6,7 +6,7 @@
 export const runtime = 'edge';
 import { NextRequest, NextResponse } from 'next/server';
 
-export const runtime = 'nodejs';
+
 
 function resolveUrl(base: string, relative: string): string {
   if (relative.startsWith('http://') || relative.startsWith('https://')) {
